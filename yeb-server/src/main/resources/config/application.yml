@@ -49,8 +49,8 @@ spring:
     store-type: redis
 
   rabbitmq:
-    username: root
-    password: mysql1970s
+    username: guest
+    password: guest
     host: localhost
     port: 5672
     #消息确认回调

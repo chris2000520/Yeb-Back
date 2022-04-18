@@ -15,8 +15,8 @@ import java.util.List;
 
 /**
  * @Description: 员工账套
- * @Author: Awei
- * @Create: 2021-06-17 12:27
+ * @Author: chris
+ * @Create: 2022-06-17 12:27
  **/
 @RestController
 @RequestMapping("/salary/sobcfg")

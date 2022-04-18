@@ -2,8 +2,8 @@ package com.awei.server.pojo;
 
 /**
  * @Description: 消息常量
- * @Author: Awei
- * @Create: 2021-06-02 10:41
+ * @Author: chris
+ * @Create: 2022-06-02 10:41
  **/
 public class MailConstants {
     /**

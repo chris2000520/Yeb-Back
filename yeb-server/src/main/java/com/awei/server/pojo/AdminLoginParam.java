@@ -8,8 +8,8 @@ import lombok.experimental.Accessors;
 
 /**
  * @Description: 传递给前端的登录对象
- * @Author: Awei
- * @Create: 2021-03-09 18:34
+ * @Author: chris
+ * @Create: 2022-03-09 18:34
  **/
 @Data
 @EqualsAndHashCode(callSuper = false)

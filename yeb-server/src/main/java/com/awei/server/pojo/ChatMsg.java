@@ -8,8 +8,8 @@ import java.time.LocalDateTime;
 
 /**
  * @Description: 消息类
- * @Author: Awei
- * @Create: 2021-06-28 17:36
+ * @Author: chris
+ * @Create: 2022-06-28 17:36
  **/
 @Data
 @EqualsAndHashCode(callSuper = false)

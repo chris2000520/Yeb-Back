@@ -8,8 +8,8 @@ import java.util.List;
 
 /**
  * @Description: 分页公共返回对象
- * @Author: Awei
- * @Create: 2021-05-24 18:04
+ * @Author: chris
+ * @Create: 2022-05-24 18:04
  **/
 @Data
 @NoArgsConstructor

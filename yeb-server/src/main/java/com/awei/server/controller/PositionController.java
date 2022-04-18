@@ -17,8 +17,6 @@ import java.util.List;
  * 前端控制器
  * </p>
  *
- * @author shizuwei
- * @since 2021-03-09
  */
 @RestController
 @RequestMapping("/system/basic/position")

@@ -12,8 +12,8 @@ import java.time.LocalDateTime;
 
 /**
  * @Description: websocket 控制器
- * @Author: Awei
- * @Create: 2021-06-28 17:40
+ * @Author: chris
+ * @Create: 2022-06-28 17:40
  **/
 @Controller
 public class WsController {

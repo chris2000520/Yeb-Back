@@ -10,8 +10,8 @@ import java.util.List;
  *  Mapper 接口
  * </p>
  *
- * @author shizuwei
- * @since 2021-03-09
+ * @author chris
+ * @since 2022-03-09
  */
 public interface RoleMapper extends BaseMapper<Role> {
 

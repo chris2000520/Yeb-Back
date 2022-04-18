@@ -53,18 +53,16 @@ public class MailRecv {
         MessageHeaders headers = message.getHeaders();
         // 消息序号
         long tag = (long) headers.get(AmqpHeaders.DELIVERY_TAG);
-        // messageId
+        // 消息Id
         String msgId = (String) headers.get("spring_returned_message_correlation");
         // 发件人
         HashOperations hashOperations = redisTemplate.opsForHash();
 
         try {
             if (hashOperations.entries("mail_log").containsKey(msgId)) {
-                LOGGER.error("消息已经被消费=========》{}", msgId);
-                /**
+                LOGGER.error("消息已经被消费========={}", msgId);
+                /*
                  * 手动确认消息
-                 * tag： 消息序号
-                 * multiple 一次确认多条
                  */
                 channel.basicAck(tag, false);
                 return;
@@ -86,19 +84,19 @@ public class MailRecv {
             //发送邮件
             javaMailSender.send(mimeMessage);
             hashOperations.put("mail_log", msgId, "OK");
-            LOGGER.info("消息已经被消费=========》{}", msgId);
+            LOGGER.info("消息已经被消费========={}", msgId);
             //手动确认一条消息
             channel.basicAck(tag, false);
         } catch (Exception e) {
-            /**
-             * requeue：是否退回队列
+            /*
+              是否退回队列
              */
             try {
                 channel.basicNack(tag, false, true);
             } catch (IOException ioException) {
-                LOGGER.error("邮件发送失败======》{}", e.getMessage());
+                LOGGER.error("邮件发送失败======{}", e.getMessage());
             }
-            LOGGER.error("邮件发送失败======》{}", e.getMessage());
+            LOGGER.error("邮件发送失败======{}", e.getMessage());
         }
     }
 }

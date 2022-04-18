@@ -22,8 +22,8 @@ import org.springframework.security.core.userdetails.UserDetails;
  * 
  * </p>
  *
- * @author shizuwei
- * @since 2021-03-09
+ * @author chris
+ * @since 2022-03-09
  */
 @Data   //  生成getter setter 方法
 @ToString

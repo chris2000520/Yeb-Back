@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 
 /**
  * @Description: 公共返回对象
- * @Author: Awei
- * @Create: 2021-03-09 18:24
+ * @Author: chris
+ * @Create: 2022-03-09 18:24
  **/
 @Data
 @NoArgsConstructor

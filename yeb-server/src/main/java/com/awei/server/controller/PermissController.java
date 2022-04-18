@@ -17,8 +17,8 @@ import java.util.stream.Collectors;
 
 /**
  * @Description: 权限组
- * @Author: Awei
- * @Create: 2021-05-20 14:21
+ * @Author: chris
+ * @Create: 2022-05-20 14:21
  **/
 @RestController
 @RequestMapping("/system/basic/permiss")

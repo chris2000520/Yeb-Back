@@ -8,8 +8,8 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * @Description: 日期转换
- * @Author: Awei
- * @Create: 2021-05-24 18:35
+ * @Author: chris
+ * @Create: 2022-05-24 18:35
  **/
 @Component
 public class DateConverter implements Converter<String, LocalDate> {

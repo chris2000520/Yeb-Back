@@ -13,7 +13,7 @@ spring:
     # 授权码
     password: mcnuercxigzafhhf
     # 发送者邮箱地址
-    username: 131044964@qq.com
+    username: 1310444964@qq.com
     # 端口 （不同邮箱端口号不同）
     port: 587
 
