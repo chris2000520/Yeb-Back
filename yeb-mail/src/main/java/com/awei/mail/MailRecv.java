@@ -88,9 +88,7 @@ public class MailRecv {
             //手动确认一条消息
             channel.basicAck(tag, false);
         } catch (Exception e) {
-            /*
-              是否退回队列
-             */
+            //是否退回队列
             try {
                 channel.basicNack(tag, false, true);
             } catch (IOException ioException) {
