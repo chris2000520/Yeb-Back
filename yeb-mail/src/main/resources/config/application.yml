@@ -20,7 +20,7 @@ spring:
   redis:
     #
     timeout: 10000ms
-    host: 127.0.0.1
+    host: localhost
     port: 6379
     database: 0
     lettuce:
@@ -34,9 +34,9 @@ spring:
 
 #rabbitmq   配置
   rabbitmq:
-    username: root
-    password: rabbitmq1970s
-    host: 127.0.0.1
+    username: guest
+    password: guest
+    host: localhost
     port: 5672
     listener:
       simple:

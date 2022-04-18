@@ -25,8 +25,8 @@ import java.util.Date;
 
 /**
  * @Description:
- * @Author: Awei
- * @Create: 2021-05-31 09:08
+ * @Author: chris
+ * @Create: 2022-05-31 09:08
  **/
 @Component
 public class MailRecv {

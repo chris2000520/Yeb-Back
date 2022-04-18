@@ -15,8 +15,8 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @Description: rabbitmq 配置类
- * @Author: Awei
- * @Create: 2021-06-02 10:59
+ * @Author: chris
+ * @Create: 2022-03-02 10:59
  **/
 @Configuration
 public class RabbitMQConfig {
